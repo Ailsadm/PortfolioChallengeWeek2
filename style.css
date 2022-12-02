@@ -21,3 +21,27 @@ h6 {
 p {
   margin: 0;
 }
+
+.page-section{
+  display: grid;
+  grid-template-columns: 25% 75%;
+  /* grid-template-rows: 300px 500px 300px; */
+}
+
+/* .main-app-showcase{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 300px 300px 300px;
+  gap: 15px;
+  grid-template-areas: 
+  "mainimage mainimage"
+  "imageapp1 ."
+  ". .";
+} */
+
+#mainimage{
+  grid-area: "mainimage";
+}
+#imageapp1{
+  grid-area: "imageapp1";
+}
