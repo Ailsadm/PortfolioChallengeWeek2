@@ -28,20 +28,34 @@ p {
   /* grid-template-rows: 300px 500px 300px; */
 }
 
-/* .main-app-showcase{
+/* .page-section img {
+  width: 400px;
+  height: 300px;
+} */
+
+.main-app-showcase{
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 300px 300px 300px;
-  gap: 15px;
+  grid-gap: 25px;
   grid-template-areas: 
   "mainimage mainimage"
-  "imageapp1 ."
+  "imageapp1 imageapp2"
   ". .";
-} */
+}
 
 #mainimage{
-  grid-area: "mainimage";
+  grid-area: mainimage;
+  background-image: url(https://securecdn.pymnts.com/wp-content/uploads/2020/10/toys-spending-pandemic-Mattel.jpg);
+  background-repeat: no-repeat;
 }
 #imageapp1{
-  grid-area: "imageapp1";
+  grid-area: imageapp1;
+  background-image: url(https://m.media-amazon.com/images/I/612krmnNCYL._AC_SS450_.jpg);
+  background-repeat: no-repeat;
+}
+#imageapp2{
+  grid-area: imageapp2;
+  background-image: url(https://www.houseofoak.co.uk/media/catalog/category/monaco-range-lifestyle-large_1.jpg);
+  background-repeat: no-repeat;
 }
