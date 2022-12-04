@@ -52,6 +52,7 @@ a{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-bottom: 30px;
 }
 
 .hero-banner h2{
@@ -62,6 +63,8 @@ a{
   position: relative;
   left: 1000px;
 }
+
+/* page display CSS */
 
 h1,
 h2,
@@ -79,8 +82,17 @@ p {
 .page-section{
   display: grid;
   grid-template-columns: 25% 75%;
-  
+  margin: 30px;
 }
+
+.page-section h2{
+  font-size: 30px;
+  color: var(--darkcolor);
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px;
+}
+
 
 /* work display main section styling */
 
@@ -132,4 +144,12 @@ p {
   border: 5px solid var(--darkcolor);
   margin: 10px;
   padding: 20px;
+}
+
+/* contact me Styling */
+.contact-me-info{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
 }
