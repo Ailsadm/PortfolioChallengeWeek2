@@ -25,13 +25,15 @@ p {
 .page-section{
   display: grid;
   grid-template-columns: 25% 75%;
-  /* grid-template-rows: 300px 500px 300px; */
+  
 }
 
 /* .page-section img {
   width: 400px;
   height: 300px;
 } */
+
+/* work display main section styling */
 
 .main-app-showcase{
   display: grid;
@@ -41,7 +43,7 @@ p {
   grid-template-areas: 
   "mainimage mainimage"
   "imageapp1 imageapp2"
-  ". .";
+  "imageapp3 imageapp4";
 }
 
 #mainimage{
@@ -58,4 +60,26 @@ p {
   grid-area: imageapp2;
   background-image: url(https://www.houseofoak.co.uk/media/catalog/category/monaco-range-lifestyle-large_1.jpg);
   background-repeat: no-repeat;
+}
+#imageapp3{
+  grid-area: imageapp3;
+  background-image: url("./02-portfolio-1.jpg");
+  background-repeat: no-repeat;
+}
+#imageapp3{
+  grid-area: imageapp4;
+  background-image: url("./02-portfolio-4.jpg");
+  background-repeat: no-repeat;
+}
+
+.main-content {
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline-flex;
+  /* justify-content: flex-end;
+  align-items: flex-end; */
+  padding: 20px;
+  border: 5px solid blue;
+  
+
+
 }
