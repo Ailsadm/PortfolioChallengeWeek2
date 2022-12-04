@@ -44,6 +44,24 @@ a{
   color: black;
 }
 
+/* banner CSS */
+.hero-banner{
+  background-image: url("./02-hero-bg.jpg");
+  display: flex;
+  padding: 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-banner h2{
+  background-color: var(--maincolor);
+  border: 5px solid var(--darkcolor);
+  margin: 10px;
+  padding: 20px;
+  position: relative;
+  left: 1000px;
+}
 
 h1,
 h2,
