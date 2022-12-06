@@ -42,6 +42,7 @@ header nav {
 a{
   text-decoration: none;
   color: black;
+  font-style: normal;
 }
 
 /* banner CSS */
@@ -62,6 +63,11 @@ a{
   padding: 20px;
   position: relative;
   left: 1000px;
+}
+.hero-banner img {
+  position: absolute;
+  top: 115px;
+  height: 200px;
 }
 
 /* page display CSS */
